@@ -101,14 +101,14 @@ section, .cardInfo{
 }
 
 @media (max-width: 767px)  {
-  .card{
+   .card{
       display: flex;
       flex-direction: column;
   }
 }
 
 @media (min-width: 768px) and (max-width: 1023px){
-  .card{
+   .card{
       display: grid;
       grid-template-columns: repeat(2,1fr);
   }
